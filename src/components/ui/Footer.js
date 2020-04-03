@@ -1,7 +1,7 @@
 import React from 'react'
 import instagram from '../../icons/instagram.png'
 
-const Footer = props => {
+const Footer = () => {
 	return (
 		<footer className='page-footer blue-grey darken-1'>
 			<div className='container'>
@@ -20,7 +20,7 @@ const Footer = props => {
 			</div>
 			<div className='footer-copyright'>
 				<div className='container'>
-					© 2019 Created by Andreas Garvik
+					Created by Andreas Garvik
 					<a
 						className='grey-text text-lighten-4 right'
 						href='https://github.com/andreasgarvik'
